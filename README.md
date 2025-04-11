@@ -25,8 +25,6 @@ Key features include:
    - **Confusion Matrix**: A visual representation of the model's performance, showing the count of true positives, true negatives, false positives, and false negatives.
    - **Classification Report**: Provides important metrics such as accuracy, precision, recall, and F1-score.
 
----
-
 ## Installation
 
 ### Prerequisites
@@ -37,8 +35,6 @@ Create a virtual environment and install the required libraries using `pip`:
 pip install -r requirements.txt
 ### Dataset
 The model is trained on the **NSL-KDD dataset**. To train the model, you need to download the dataset (`KDDTrain+.csv`) from the UCI Machine Learning Repository or other sources. Place the dataset in the `data/` directory.
-
----
 
 ## Usage
 
@@ -59,8 +55,6 @@ This will launch a local server and open the dashboard in your browser. The dash
 - Get predictions on whether the network traffic is "Normal" or an "Attack".
 - View prediction history and distribution.
 - View performance evaluation metrics (confusion matrix and classification report).
-
----
 
 ## Streamlit Dashboard Interface
 The dashboard allows users to interact with the machine learning model via an intuitive interface.
@@ -83,8 +77,6 @@ As users submit multiple predictions, the system computes and displays:
 - **Confusion Matrix**: A heatmap that visualizes the performance of the model.
 - **Classification Report**: A detailed report showing precision, recall, F1-score, and other evaluation metrics.
 
----
-
 ## Model Evaluation
 The model performance is evaluated using metrics like:
 - **Confusion Matrix**: Shows true positives (TP), true negatives (TN), false positives (FP), and false negatives (FN) for evaluating classification accuracy.
@@ -94,14 +86,6 @@ The model performance is evaluated using metrics like:
 
 ## Conclusion
 The **Cybersecurity Threat Detection System** is a powerful tool for detecting network intrusions based on machine learning techniques. By utilizing a trained **Random Forest classifier** on the **NSL-KDD dataset**, this system offers real-time predictions of network traffic and can help in identifying malicious activities or attacks. The interactive Streamlit dashboard allows users to input network traffic data and receive instant feedback, while the model evaluation metrics help assess the performance and reliability of the model.
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## Acknowledgments
 
